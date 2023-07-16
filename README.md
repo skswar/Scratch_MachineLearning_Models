@@ -33,6 +33,7 @@ Gradient descent is a fundamental algorithm in almost every application of machi
 The logistic regression algorithm is a fundamental method for binary classification in machine learning. The concept of logistic regression is not only used in Machine Learning but also in many deep learning algorithms. The idea is similar to the Stochastic Gradient Descent as we mentioned earlier, except, in Logistic Regression we try to predict the pobability of input data to belong to a certain class. Thus Logistic Regression uses concept of cross-entropy function, which compares the predicted probability with the true class label to minimize the loss and then a sigmoid function which classifies the output. In this notebook, I have implemented gradient descent for logistic regression, cross entropy loss function and sigmoid function from scratch. Then the implemented algorithm is applied on the Breast Cancer Wisconsin Data Set and its performance is evaluated. The following images show the performance of the algorithm through Loss Function Graph and Confusion matrix. Finally in the notebook I also talk about the interpretation of the weights given by logistic regressio which is a bit different than linear regression weights. 
 
 
+**Link To Notebook**: [Logistic_Regression_Scratch.ipynb](<https://github.com/skswar/Scratch_MachineLearning_Models/blob/main/ML_Model_Scripts/Logistic_Regression_Scratch.ipynb>)
 
 
 
