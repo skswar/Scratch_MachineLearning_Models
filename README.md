@@ -34,7 +34,7 @@ The logistic regression algorithm is a fundamental method for binary classificat
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/LogReg_BC.png" width="250px" height="200px"/>
-<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/BC_ConfusionMtrix.png" width="250px" height="201px"/>
+<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/BC_ConfusionMtrix.png" width="250px" height="200px"/>
 </p>
 
 **Link To Notebook**: [Logistic_Regression_Scratch.ipynb](<https://github.com/skswar/Scratch_MachineLearning_Models/blob/main/ML_Model_Scripts/Logistic_Regression_Scratch.ipynb>)
