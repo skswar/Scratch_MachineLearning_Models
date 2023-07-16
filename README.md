@@ -25,7 +25,13 @@ Gradient descent is a fundamental algorithm in almost every application of machi
 <img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/LR_CaliforniaHousing.png" width="400px" height="300px"/>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/SGD_MSE" width="70%"/></p>
+<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/SGD_MSE.png" width="70%"/></p>
+
+**Link To Notebook**: [Stochastic_Gradient_Descent_Scratch](<https://github.com/skswar/Scratch_MachineLearning_Models/blob/main/ML_Model_Scripts/Stochastic_Gradient_Descent_Scratch.ipynb>)
+
+## Logistic Regression From Scratch
+test
+
 
 
 
