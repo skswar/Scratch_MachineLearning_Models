@@ -21,11 +21,11 @@ In the current landscape, numerous packages and libraries are readily available 
 Gradient descent is a fundamental algorithm in almost every application of machine learning. It plays a crucial role in minimizing the error between predicted and ground truth values, forming the foundation of machine learning as we know it today. This notebook focuses on implementing the gradient descent theory and loss function calculations. Initially, these functions are applied to a random data array, followed by their application to the well-known 'California Housing Dataset'. The accompanying images depict the reduction in loss over iterations. Notably, as the learning rate decreases, the algorithm takes longer to converge and sometimes possibly increases the likelihood of overfitting. To validate the implementation, the functions are compared with the scikit-learn SGDRegressor, and it is observed that the results are quite similar. The comparison results are mentioned in detail in the notebook.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/LR_RandomDataArray.png" width="400px" height="300px"/>
-<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/LR_CaliforniaHousing.png" width="400px" height="300px"/>
+<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/LR_RandomDataArray.png" width="250px" height="200px"/>
+<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/LR_CaliforniaHousing.png" width="250px" height="200px"/>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/SGD_MSE.png" width="70%"/></p>
+<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/SGD_MSE.png" width="50%"/></p>
 
 **Link To Notebook**: [Stochastic_Gradient_Descent_Scratch](<https://github.com/skswar/Scratch_MachineLearning_Models/blob/main/ML_Model_Scripts/Stochastic_Gradient_Descent_Scratch.ipynb>)
 
