@@ -39,9 +39,8 @@ The logistic regression algorithm is a fundamental method for binary classificat
 
 **Link To Notebook**: [Logistic_Regression_Scratch.ipynb](<https://github.com/skswar/Scratch_MachineLearning_Models/blob/main/ML_Model_Scripts/Logistic_Regression_Scratch.ipynb>)
 
-
-
-
+## Kmeans and Kmeans++ From Scratch
+In unsupervised machine learning clustering is one of the first technical concepts that we learn. And when we lean clustering, we learns Kmeans Algorithm. The Kmeans algorithm has developed and taken number of different forms/upgrades to improve its performance, clustering efficiency, and its ability to deal with higher dimensional data. The most primitive two version of this algorithm is Kmeans and Kmeans++ which are till date used extensively in different data science applications. In this notebook, I first implemented the Kemans and Kmeans++ algorithms from scratch. Then applied this algorithm to the famous Iris dataset yo evaluate its performance.   
 
 
 
