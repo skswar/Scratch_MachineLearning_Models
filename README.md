@@ -62,3 +62,10 @@ Finally to compare performance of the handwritten algorithm I used external data
 
 **Link To Notebook**: [Kmeans & Kmeans++.ipynb](<https://github.com/skswar/Scratch_MachineLearning_Models/blob/main/ML_Model_Scripts/Kmeans&Kmeans++.ipynb>)
 
+## Principal Component Analysis (PCA) From Scratch
+Principal Component Analysis (PCA) is a widely used technique for feature reduction in machine learning. It offers a solution to the Curse of Dimensionality, which arises when there are a large number of features but limited data points available to effectively capture the entire feature space. PCA can also be employed for data visualization in a 2D space.
+
+The underlying idea of PCA is to project the features onto axes that capture the maximum variance in the data, enabling a better understanding of the outcome variable. In the PCA algorithm, the first step involves calculating the covariance matrix of the feature space. Subsequently, eigen decomposition is performed to identify the columns corresponding to the highest eigenvalues. Using this information we select the desired number of principal components to retain based on our requirement. These selected components contribute the most to explaining the variance in the data and serve as a reduced set of features for subsequent analysis. In this notebook, I first wrote the PCA algorithm, then used Iris dataset to project its column on a 2-dimensional space for a better visualization.
+
+
+**Link To Notebook**: [PCA.ipynb](<https://github.com/skswar/Scratch_MachineLearning_Models/blob/main/ML_Model_Scripts/PCA.ipynb>)
