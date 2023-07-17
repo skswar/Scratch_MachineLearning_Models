@@ -47,7 +47,7 @@ In this notebook, I have implemented both the K-means and K-means++ algorithms f
 <p align="center">
 <img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/KmeansWeightInit.png" width="33%"/>
 <img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/Kmeans++WeightInit.png" width="33%"/>
-<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/Kemans++.gif" width="33%"/>
+<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/Kmeans++.gif" width="33%"/>
 <br>
 The left most image depicts the shortcomings of Weight Initialization of Kmeans algorithm. The middle image shows how the KMenas++ overcomes that issues. The right most image demonstrates how Kmeans++ algorithm updates the clusters.
 </p>
