@@ -40,8 +40,25 @@ The logistic regression algorithm is a fundamental method for binary classificat
 **Link To Notebook**: [Logistic_Regression_Scratch.ipynb](<https://github.com/skswar/Scratch_MachineLearning_Models/blob/main/ML_Model_Scripts/Logistic_Regression_Scratch.ipynb>)
 
 ## Kmeans and Kmeans++ From Scratch
-In unsupervised machine learning clustering is one of the first technical concepts that we learn. And when we lean clustering, we learns Kmeans Algorithm. The Kmeans algorithm has developed and taken number of different forms/upgrades to improve its performance, clustering efficiency, and its ability to deal with higher dimensional data. The most primitive two version of this algorithm is Kmeans and Kmeans++ which are till date used extensively in different data science applications. In this notebook, I first implemented the Kemans and Kmeans++ algorithms from scratch. Then applied this algorithm to the famous Iris dataset yo evaluate its performance.   
+Clustering is a fundamental concept in unsupervised machine learning, with K-means algorithm being one of the earliest techniques we encounter. Over time, the K-means algorithm has undergone various improvements to enhance its performance, clustering efficiency, and its ability to handle high-dimensional data. Two well-known versions of this algorithm are K-means and K-means++, which continue to be widely used in various data science applications.
 
+In this notebook, I have implemented both the K-means and K-means++ algorithms from scratch. Subsequently, I applied these algorithms to the well-known Iris dataset to evaluate their performance. One limitation of the K-means algorithm is its sensitivity to the random initialization of cluster centroids, which can result in suboptimal clustering outcomes. On the other hand, the K-means++ algorithm follows a similar overall approach but employs a different method for selecting initial centroids, aiming to place them far apart from each other. This initialization strategy leads to improved clustering results. PCA has been performed on the Iris dataset to have better visualization of the clusters. The number of clusters has been chosen to be four for experimental reasons. Sree plot/Elbow method has not been followed for this purpose.
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/KmeansWeightInit.png" width="33%"/>
+<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/Kmeans++WeightInit.png" width="33%"/>
+<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/Kemans++.gif" width="33%"/>
+<br>
+The left most image depicts the shortcomings of Weight Initialization of Kmeans algorithm. The middle image shows how the KMenas++ overcomes that issues. The right most image demonstrates how Kmeans++ algorithm updates the clusters.
+</p>
 
+Finally to compare performance of the handwritten algorithm I used external dataset and evaluated the clustering result against the sklearn's Kmeans library. I found that both provided almost similar clustering output. Additional details about this dataset and few other facts/thoughts has been discussed inside the notebook.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/Kmeans++CountriesSklearn.png" width="33%"/>
+<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/Kmeans++Countries.gif" width="33%"/>
+<br>The left image shows the clustering result of the Sklearn library. The right image is where the Kmeans++ manual algorithm is at work.
+</p>
+
+**Link To Notebook**: [Kmeans & Kmeans++.ipynb](<https://github.com/skswar/Scratch_MachineLearning_Models/blob/main/ML_Model_Scripts/Kmeans&Kmeans++.ipynb>)
 
