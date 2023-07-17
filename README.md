@@ -68,8 +68,8 @@ Principal Component Analysis (PCA) is a widely used technique for feature reduct
 The underlying idea of PCA is to project the features onto axes that capture the maximum variance in the data, enabling a better understanding of the outcome variable. In the PCA algorithm, the first step involves calculating the covariance matrix of the feature space. Subsequently, eigen decomposition is performed to identify the columns corresponding to the highest eigenvalues. Using this information we select the desired number of principal components to retain based on our requirement. These selected components contribute the most to explaining the variance in the data and serve as a reduced set of features for subsequent analysis. In this notebook, I first wrote the PCA algorithm, then used Iris dataset to project its column on a 2-dimensional space for a better visualization.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/ManualPCA_iris.png" width="40%"/>
-<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/SKlearnPCA_iris.png" width="40%"/>
+<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/ManualPCA_iris.png" width="350px" height="300px"/>
+<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/SKlearnPCA_iris.png" width="350px" height="300px"/>
 </p>
 
 **Link To Notebook**: [PCA.ipynb](<https://github.com/skswar/Scratch_MachineLearning_Models/blob/main/ML_Model_Scripts/PCA.ipynb>)
