@@ -9,7 +9,7 @@
 * [Introduction](#introduction)
 * [Stochastic Gradient Descent From Scratch](#stochastic-gradient-descent-from-scratch)
 * [Logistic Regression From Scratch](#logistic-regression-from-scratch)
-* [Kmeans and Kmeans++ From Scratch](#kmeans-and-kmeans++-from-scratch)
+* [Kmeans and Kmeans++ From Scratch](#kmeans-from-scratch)
 * [Principal Component Analysis (PCA) From Scratch](#principal-component-analysis-from-scratch)
 
 <hr>
@@ -39,7 +39,7 @@ The logistic regression algorithm is a fundamental method for binary classificat
 
 **Link To Notebook**: [Logistic_Regression_Scratch.ipynb](<https://github.com/skswar/Scratch_MachineLearning_Models/blob/main/ML_Model_Scripts/Logistic_Regression_Scratch.ipynb>)
 
-## Kmeans and Kmeans++ From Scratch
+## Kmeans From Scratch
 Clustering is a fundamental concept in unsupervised machine learning, with K-means algorithm being one of the earliest techniques we encounter. Over time, the K-means algorithm has undergone various improvements to enhance its performance, clustering efficiency, and its ability to handle high-dimensional data. Two well-known versions of this algorithm are K-means and K-means++, which continue to be widely used in various data science applications.
 
 In this notebook, I have implemented both the K-means and K-means++ algorithms from scratch. Subsequently, I applied these algorithms to the well-known Iris dataset to evaluate their performance. One limitation of the K-means algorithm is its sensitivity to the random initialization of cluster centroids, which can result in suboptimal clustering outcomes. On the other hand, the K-means++ algorithm follows a similar overall approach but employs a different method for selecting initial centroids, aiming to place them far apart from each other. This initialization strategy leads to improved clustering results. PCA has been performed on the Iris dataset to have better visualization of the clusters. The number of clusters has been chosen to be four for experimental reasons. Sree plot/Elbow method has not been followed for this purpose.
@@ -62,10 +62,14 @@ Finally to compare performance of the handwritten algorithm I used external data
 
 **Link To Notebook**: [Kmeans & Kmeans++.ipynb](<https://github.com/skswar/Scratch_MachineLearning_Models/blob/main/ML_Model_Scripts/Kmeans&Kmeans++.ipynb>)
 
-## Principal Component Analysis (PCA) From Scratch
+## Principal Component Analysis From Scratch
 Principal Component Analysis (PCA) is a widely used technique for feature reduction in machine learning. It offers a solution to the Curse of Dimensionality, which arises when there are a large number of features but limited data points available to effectively capture the entire feature space. PCA can also be employed for data visualization in a 2D space.
 
 The underlying idea of PCA is to project the features onto axes that capture the maximum variance in the data, enabling a better understanding of the outcome variable. In the PCA algorithm, the first step involves calculating the covariance matrix of the feature space. Subsequently, eigen decomposition is performed to identify the columns corresponding to the highest eigenvalues. Using this information we select the desired number of principal components to retain based on our requirement. These selected components contribute the most to explaining the variance in the data and serve as a reduced set of features for subsequent analysis. In this notebook, I first wrote the PCA algorithm, then used Iris dataset to project its column on a 2-dimensional space for a better visualization.
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/ManualPCA_iris.png" width="40%"/>
+<img src="https://raw.githubusercontent.com/skswar/Scratch_MachineLearning_Models/master/img/SKlearnPCA_iris.png" width="40%"/>
+</p>
 
 **Link To Notebook**: [PCA.ipynb](<https://github.com/skswar/Scratch_MachineLearning_Models/blob/main/ML_Model_Scripts/PCA.ipynb>)
