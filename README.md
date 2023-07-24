@@ -3,7 +3,8 @@
 </div>
 <br/>
 <h3 align="center">Exploring the Inner Workings of Machine Learning Algorithms through Scratch Implementation</h3>
-<br/>
+<hr>
+
 
 ## Table of contents
 * [Introduction](#introduction)
@@ -12,7 +13,6 @@
 * [Kmeans and Kmeans++ From Scratch](#kmeans-from-scratch)
 * [Principal Component Analysis (PCA) From Scratch](#principal-component-analysis-from-scratch)
 
-<hr>
 
 ## Introduction
 In the current landscape, numerous packages and libraries are readily available in the market to enhance productivity in the fields of Data Science, Machine Learning, and Data Analysis. However, it is common for users to adopt these tools without gaining a comprehensive understanding of the underlying algorithms, leading to suboptimal outcomes. Therefore, this repository was created with the objective of delving into key machine learning algorithms, exploring their fundamental concepts and true algorithms, and conducting comparative analyses with existing packages to ensure a better understanding of their functionality and correctness.
